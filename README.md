@@ -17,7 +17,8 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-javascript-action@v1
-with:
-  who-to-greet: 'Mona the Octocat'
+- name: Github Actions Javascript Action by damianri
+  uses: DamianRi/github-actions-javascript-action@v1
+  with:
+    who-to-greet: 'Rick Genial'
 ```
